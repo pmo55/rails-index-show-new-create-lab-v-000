@@ -1,4 +1,4 @@
-class Coupon < ApplicationRecord
+class Coupon < ActiveRecord::Base
   def index
     @coupons = Coupon.all
   end
